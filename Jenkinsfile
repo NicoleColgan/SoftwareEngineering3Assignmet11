@@ -3,7 +3,7 @@ pipeline {
 //(allows  the build to run)
 //and workspace for the entire pipeline
     agent any
-//     stages {
+     stages {
 //         stage('Checkout code from Git repo'){
 //             steps{
 //                 checkout([$class: 'GitSCM', branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[credentialsId: 'github-token', url: 'https://github.com/NicoleColgan/SoftwareEngineering3Assignmet1b.git']]])
